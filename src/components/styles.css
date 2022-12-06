@@ -1,0 +1,125 @@
+.navbar {
+  background-color: rgb(18, 23, 97);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.heading {
+  margin-left: 10px;
+  font-weight: 800;
+  font-size: larger;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.logOutButton {
+  color: rgb(12, 12, 12);
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 2px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.logOutButton:hover {
+  background-color: rgb(105, 100, 100);
+}
+
+.chat-main {
+  display: flex;
+  height: 90%;
+  flex-direction: column; 
+  padding: 10px;
+  position: relative; 
+  overflow: scroll;
+}
+
+.message {
+
+  display: flex;
+  
+  box-shadow: 3px 15px 30px -7px rgba(0,0,0,0.74);
+  -webkit-box-shadow: 3px 15px 30px -7px rgba(0,0,0,0.74);
+  -moz-box-shadow: 3px 15px 30px -7px rgba(0,0,0,0.74);
+  margin-top: 40px;
+  margin-right: 10px;
+  border-radius: 0px 15px 15px 15px;
+  width: fit-content;
+  max-width: 100%;
+  margin-bottom: 2em;
+}
+
+
+.message p {
+
+  display: block;
+  max-width: 98%;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+  word-wrap: break-word;
+  
+}
+
+.name {
+  position: absolute;  
+  margin-top: -2em;
+  color: gray;
+}
+
+.sent {
+  background-color: #395dff;
+  color: #fff;
+  flex-direction: row-reverse;
+  text-align: start;
+  float: right;
+  border-radius: 15px 15px 0px 15px;
+  
+}
+
+.received {
+  background-color: #e5e5ea;
+  color: black;
+}
+
+.form {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  
+  width: 100%;
+}
+
+.form .input {
+  position: relative;
+  bottom: 0;
+  flex-grow: 3;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.input::placeholder {
+  margin-left: 100px;
+}
+
+.form button {
+  background-color: rgb(97, 241, 145);
+  margin-right: 15px;
+  border-radius: 7px;
+  height: 50px;
+  width: 45px;
+}
+
