@@ -17,7 +17,7 @@ function App() {
  // console.log(user)
 
   return (
-    <div className={style.appContainer}>
+    <div className={style.appContainer} basename='/Chatapp-reactjs/'>
       <section className={style.sectionContainer}>
         <Navbar />
         {user ? <Chat/> : null } {/*si el usuario esta logueado muestra el chat, sino no */}

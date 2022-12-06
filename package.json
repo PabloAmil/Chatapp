@@ -20,6 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+
+  "homepage": "https://pabloamil.github.io/Chatapp-reactjs/",
   "eslintConfig": {
     "extends": [
       "react-app",
